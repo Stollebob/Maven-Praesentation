@@ -1,0 +1,7 @@
+Beispiel 1/bin/
+Beispiel 1/.idea/
+Beispiel 1/target/
+Beispiel 1/.settings/
+*.classpath
+*.project
+*.iml
