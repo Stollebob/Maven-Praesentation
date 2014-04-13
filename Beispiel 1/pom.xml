@@ -15,6 +15,9 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <properties>
+        <jdk.1.7.home>C:\Program Files\Java\jdk1.7.0_07</jdk.1.7.home>
+    </properties>
     <build>
         <plugins>
             <plugin>
@@ -23,7 +26,6 @@
                 <version>3.1</version>
                 <configuration>
                     <verbose>false</verbose>
-                    <fork>true</fork>
                     <executable>${jdk.1.7.home}/bin/javac.exe</executable>
                     <compilerVersion>1.7</compilerVersion>
                     <source>1.7</source>
